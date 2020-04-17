@@ -28,6 +28,10 @@ Features
 
 * Can be used to load the nginx log data into analytics databases - supports postgres and nginx now
 
+Pre-requisites
+---------------
+
+Create a folder named `vault` in the cloned repo root. Create a file named config.json inside. Copy the structure in sample_config.json and edit the values there
 
 Credits
 -------
