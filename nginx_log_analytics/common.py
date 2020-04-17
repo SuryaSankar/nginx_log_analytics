@@ -25,8 +25,9 @@ field_types = {
 }
 
 
-def load_config_dict():
-    return json.load("config.json")
+def load_config_dict(config_path="vault/config.json"):
+    with open(config_path) as configfile:
+        return json.load(configfile)
 
 
 def generate_sqla_connection_uri(dbconnstring):

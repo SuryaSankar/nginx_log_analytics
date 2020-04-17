@@ -104,4 +104,4 @@ ENV/
 # IDE settings
 .vscode/
 
-nginx_log_analytics/vault/
+vault/
