@@ -26,7 +26,8 @@ Tools for loading nginx logs to olap databases and analyzing them
 Features
 --------
 
-* TODO
+* Can be used to load the nginx log data into analytics databases - supports postgres and nginx now
+
 
 Credits
 -------

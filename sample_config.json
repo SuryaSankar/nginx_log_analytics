@@ -1,0 +1,16 @@
+{
+    "DB_CONNECTION_PARAMS": {
+        "clickhouse": {
+            "username": "user",
+            "password": "somepass",
+            "host": "localhost",
+            "db_name": "testdb"
+        },
+        "postgresql": {
+            "username": "postgresuser",
+            "password": "somepass",
+            "host": "localhost",
+            "db_name": "testdb"
+        }
+    }
+}
