@@ -67,6 +67,7 @@ def insert_entries_from_log_file(filepath):
     _insert_entries_from_log_file(
         filepath, session_maker, WeblogEntry)
 
+
 def import_logs_from_folder(folder_path):
     _import_logs_from_folder(
         folder_path, session_maker, WeblogEntry)
